@@ -1,0 +1,187 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.front_end_skills{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.Ch1{
+    height: 229px;
+    background: #252525;
+    display: flex;
+    align-items: center;
+}
+.Th1{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin-left: 60px;
+}
+.Cskills{
+    display: flex;
+    justify-content: center;
+}
+.skills1{
+    margin-left: 50px;
+}
+.subtitle{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin-left: 40px;
+}
+li{
+   list-style: none; 
+   position: relative;
+}
+.liSkill1{
+    margin-top: 20px;
+    /* list-style: url('../images/icons8-github.svg'); */
+}
+.liSkill1::before {
+    content: ''; 
+    position: absolute;
+    left: -55px;
+    top: -17%;
+    transform: translateY(25%);
+    width: 50px; 
+    height: 50px; 
+    background-image: url('../images/icons8-github.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+.liSkill2{
+    margin-top: 20px;
+}
+.liSkill2::before {
+    content: ''; 
+    position: absolute;
+    left: -55px;
+    top: -17%;
+    transform: translateY(25%);
+    width: 50px; 
+    height: 50px; 
+    background-image:  url('../images/icons8-macbook-50.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+.liSkill3{
+    margin-top: 20px;
+}
+.liSkill3::before {
+    content: ''; 
+    position: absolute;
+    left: -55px;
+    top: -17%;
+    transform: translateY(25%);
+    width: 50px; 
+    height: 50px; 
+    background-image: url('../images/icons8-library-50.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+.liLangueage{
+    margin-top: 28px;
+}
+.divLangueageUse{
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+}
+.titleWhatIDo{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin: 0;
+}
+.loremWhatIDo{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 620px;
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.titleLanguage{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin: 0;
+}
+.pProsent{
+    margin-top: 2px;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+.lineBacround{
+    margin-left: -1px;
+    width: 620px;
+    height: 15px;
+    border-radius: 8px;
+    background: #444;
+    padding-top: 3px;
+    padding-left: 3px;
+}
+.lineProsent1{
+    width: 616px;
+    height: 9px;
+    border-radius: 8px;
+    background: #007CED;
+    padding-top: 2px;
+}
+.lineProsent2{
+    width: 493px;
+    height: 9px;
+    border-radius: 8px;
+    background: #007CED;
+    padding-top: 2px;
+}
+.lineProsent3{
+    width: 462px;
+    height: 9px;
+    border-radius: 8px;
+    background: #007CED;
+    padding-top: 2px;
+}.lineProsent4{
+    width: 308px;
+    height: 9px;
+    border-radius: 8px;
+    background: #007CED;
+    padding-top: 2px;
+}.lineProsent5{
+    width: 248px;
+    height: 9px;
+    border-radius: 8px;
+    background: #007CED;
+    padding-top: 2px;
+}.lineProsent6{
+    width: 185px;
+    height: 9px;
+    border-radius: 8px;
+    background: #007CED;
+    padding-top: 2px;
+}

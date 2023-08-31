@@ -1,0 +1,95 @@
+.mainDiv{
+    margin:60px 0;
+}
+.title{
+    height: 229px;
+    background: #252525;
+    display: flex;
+    align-items: center;
+}
+.titleText{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin-left: 37px;
+}
+.conClients{
+    margin-bottom: 75px;
+}
+.titleClients{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin-left: 37px;
+}
+.loremClients{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+}
+.titleGallery{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin-left: 37px;
+
+}
+.listProjects{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.site{
+    width: 443px;
+    height: 250px;
+    background: url("../images/WebStudio.png"), lightgray -44.962px -5px / 118.931% 101.852% no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.site:nth-child(2){
+    background: url("../images/Restoran.png"), lightgray -44.962px -5px / 118.931% 101.852% no-repeat;
+    background-size: contain;
+    margin: 0 10px;
+}
+.site:nth-child(3){
+    background: url("../images/EventBuster.png"), lightgray -44.962px -5px / 118.931% 101.852% no-repeat;
+    background-size: contain;
+}
+.BVSite{
+    width: 163px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 3px solid #D5D5D5;
+    background: #333;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    margin-bottom: 17px;
+}
+.site:hover .BVSite{
+    opacity: 1;
+    border-radius: 30px;
+    border: 3px solid #007CED;
+    background: #333;
+}
