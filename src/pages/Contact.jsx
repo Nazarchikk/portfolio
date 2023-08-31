@@ -8,7 +8,7 @@ export default function contact() {
       </div>
       <div>
         <div className={css.divLocation}>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.3470928148067!2d32.26176137643961!3d48.507410625341905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d043a9e7578e93%3A0x14b3eacf69d7cc46!2zRGVwb3QgY2VudGVyIGJyYWJyYWJyYSDQmtGA0L7Qv9C40LLQvdC40YbRjNC60LjQuQ!5e0!3m2!1suk!2sua!4v1693512750133!5m2!1suk!2sua" width="1000" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe title="This is a map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.3470928148067!2d32.26176137643961!3d48.507410625341905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d043a9e7578e93%3A0x14b3eacf69d7cc46!2zRGVwb3QgY2VudGVyIGJyYWJyYWJyYSDQmtGA0L7Qv9C40LLQvdC40YbRjNC60LjQuQ!5e0!3m2!1suk!2sua!4v1693512750133!5m2!1suk!2sua" width="1000" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div>
           <div>
