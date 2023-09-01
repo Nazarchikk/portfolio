@@ -1,64 +1,96 @@
-.home{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+@media screen and (min-width: 320px){
+    .home{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo{
+        width: 285px;
+        border-radius: 528px;
+        background: #444;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.80);
+        padding: 18px;
+        margin-bottom: 10px;
+    }
+    img{   
+        width: 280px;
+        height: 280px;
+        border-radius: 528px;
+    }
+    .frd{
+        color: rgba(255, 255, 255, 0.50);
+        font-family: 'Poppins';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+    }
+    h1{
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+    }
+    .lorem{
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        min-width: 300px;
+        max-width: 603px;
+    }
+    .divButtons{
+        text-align: center;
+    }
+    .Hbutton{
+        width: 120px;
+        height: 62px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        border: 3px solid #D5D5D5;
+        background: #333;
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+    }
+    .Hbutton:hover{
+        border-radius: 30px;
+        border: 3px solid #007CED;
+        background: #333;
+    }
 }
-.photo{
-    width: 470px;
-    border-radius: 528px;
-    background: #444;
-    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.80);
-    padding: 18px;
-    margin-right: 10px;
+@media screen and (min-width: 768px){
+    .photo{
+        width: 470px;
+ 
+    }
+    img{   
+        width: 471px;
+        height: 471px;
+    }
 }
-img{    
-    width: 471px;
-    height: 471px;
-    border-radius: 528px;
+@media screen and (min-width: 1112px){
+    .home{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .lorem{
+        width:790px
+    }
+    .Hbutton{
+        width: 163px;
+    }
 }
-.frd{
-    color: rgba(255, 255, 255, 0.50);
-    font-family: 'Poppins';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px;
-}
-h1{
-    color: #FFF;
-    font-family: 'Poppins';
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px;
-}
-.lorem{
-    color: #FFF;
-    font-family: 'Poppins';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px;
-    width:790px
-}
-.Hbutton{
-    width: 163px;
-    height: 62px;
-    flex-shrink: 0;
-    border-radius: 30px;
-    border: 3px solid #D5D5D5;
-    background: #333;
-    color: #FFF;
-    font-family: 'Poppins';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px;
-}
-.Hbutton:hover{
-    border-radius: 30px;
-    border: 3px solid #007CED;
-    background: #333;
-}
+

@@ -1,63 +1,118 @@
-body{
-    background-color: #222;
-    height: 100%;
-    width: 100%;
-    margin:0;
+@media screen and (min-width: 320px){
+    body{
+        background-color: #222;
+        height: 100%;
+        width: 100%;
+        margin:0;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    header{
+        height: 60px;
+        padding-top: 10px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conLogo{
+        width: 70px;
+        height: 70px;
+        border-radius: 100px;
+        background-color:royalblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        font-family: 'Caveat';
+        font-size: 40px;
+        text-decoration: none;
+        color: white;
+        margin-left: -10px;
+    }
+    .navbar{
+        min-width: 200px;
+        max-width: 550px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .NavLink{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.50);
+        font-family: 'Poppins';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        margin-right: 10px;
+    }
+    .NavLink:focus{
+        color: white;
+        font-weight: 700;
+    }
+    main{
+        width: 100%;
+    }
+    footer{
+        border-top: solid 1px #333;
+        width: 100%;
+        text-align: center;
+    }
+    .footerNLink{
+        color: rgba(255, 255, 255, 0.50);
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        margin-right: 15px;
+        text-decoration: none;
+        transition: 1s ease-in-out; 
+    }
+    .footerNLink:last-child{
+        margin: 0;
+    }
+    .footerNLink:hover{
+        color: white;
+        font-weight: 700;
+    }
+    .text2023{
+        color: rgba(255, 255, 255, 0.80);
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+    }
 }
-.wrapper{
-    width: 100%;
+@media screen and (min-width: 768px){
+    .conLogo{
+        margin-left: 40px;
+    }
+    nav{
+        display: flex;
+        flex-direction: unset;
+        justify-content: space-between;
+    }
+    .NavLink:focus{
+        color: white;
+        font-weight: 700;
+    }
 }
-header{
-    height: 60px;
-    padding-top: 10px;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-}
+@media screen and (min-width: 1112px){
 .conLogo{
-    width: 70px;
-    height: 70px;
-    border-radius: 100px;
-    background-color:royalblue;
-    margin-left: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: opacity 1s ease-in-out; 
 }
 .conLogo:hover{
     opacity:0;
 }
-.logo{
-    font-family: 'Caveat';
-    font-size: 45px;
-    text-decoration: none;
-    color: white;
-    margin-left: -10px;
-}
 .navbar{
     padding: 22px;
-}
-.NavLink{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.50);
-    font-family: 'Poppins';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px;
-    margin-right: 10px;
-}
-.NavLink:last-child{
-    margin-right: 50px;
-}
-.NavLink:focus{
-    color: white;
-    font-weight: 700;
-}
-main{
-    width: 100%;
+    max-width: none;
 }
 footer{
     display: flex;
@@ -70,33 +125,14 @@ footer{
     align-items: center;
     margin-left: 20px;
 }
-.footerNLink{
-    color: rgba(255, 255, 255, 0.50);
-    font-family: 'Poppins';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px;
-    margin-right: 15px;
-    text-decoration: none;
-    transition: 1s ease-in-out; 
-}
 .footerNLink:last-child{
     margin: 0;
 }
-.footerNLink:hover{
-    color: white;
-    font-weight: 700;
-}
 .text2023{
-    color: rgba(255, 255, 255, 0.80);
-    font-family: 'Poppins';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px;
     transition: opacity 1s ease-in-out; 
 }
 .text2023:hover{
     opacity: 0;
 }
+}
+
