@@ -14,8 +14,8 @@
         padding: 18px;
         margin-bottom: 10px;
     }
-    img{   
-        width: 270px;
+    .imageHome{   
+        width: 275px;
         height: 270px;
         border-radius: 528px;
     }
@@ -28,7 +28,7 @@
         line-height: 35px;
         margin-left: 15px;
     }
-    h1{
+    .h1Home{
         color: #FFF;
         font-family: 'Poppins';
         font-size: 70px;
@@ -46,7 +46,7 @@
         line-height: 35px;
         min-width: 280px;
         max-width: 603px;
-        margin: 0 15px;
+        margin: 20px 15px;
     }
     .divButtons{
         text-align: center;
@@ -87,18 +87,15 @@
     .Hbutton{
         margin: 0 15px;
     }
-    img{   
+    .imageHome{   
         width: 471px;
         height: 471px;
     }
 }
 @media screen and (min-width: 1112px){
     .home{
-        display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top: 100px;
-        margin-bottom: 100px;
     }
     .lorem{
         width:790px

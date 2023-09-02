@@ -1,93 +1,159 @@
-.mainDiv{
-    margin-top: 60px;
-    margin-bottom: 60px;
+@media screen and (min-width: 320px){
+    .mainDiv{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .titleContact{
+        height: 150px;
+        background: #252525;
+        display: flex;
+        align-items: center;
+    }
+    .textContact{
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        margin-left: 10px;
+    }
+    iframe{
+        width: 280px;
+    }
+    .divLocation{
+        margin: 40px 0;
+        text-align: center;
+    }
+    .listContacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .liPhone{
+        position: relative;
+    }
+    .liPhone::before {
+        content: ''; 
+        position: absolute;
+        left: -55px;
+        top: 0%;
+        transform: translateY(25%);
+        width: 50px; 
+        height: 50px; 
+        background-image: url('../images/icons8-iphone-14-50.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }  
+    .liLocation{
+        margin: 20px 0;
+        position: relative;
+    }
+    .liLocation::before {
+        content: ''; 
+        position: absolute;
+        left: -55px;
+        top: 0%;
+        transform: translateY(25%);
+        width: 50px; 
+        height: 50px; 
+        background-image:  url('../images/icons8-location-50.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+    .liEmail{
+        position: relative;
+    }
+    .liEmail::before {
+        content: ''; 
+        position: absolute;
+        left: -55px;
+        top: 0%;
+        transform: translateY(25%);
+        width: 50px; 
+        height: 50px; 
+        background-image: url('../images/icons8-message-50.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .listContact{
+        color: #FFF;
+        font-family: 'Poppins';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+    }
+    .loremListContact{
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: rgba(255, 255, 255, 0.70);
+        font-family: 'Poppins';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+    }
 }
-.titleContact{
-    height: 229px;
-    background: #252525;
-    display: flex;
-    align-items: center;
+@media screen and (min-width: 500px){
+    iframe{
+        width: 450px;
+    }
 }
-.textContact{
-    color: #FFF;
-    font-family: 'Poppins';
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px;
-    margin-left: 60px;
+@media screen and (min-width: 768px){
+    .titleContact{
+        height: 200px;
+    }
+    .textContact{
+        font-size: 45px;
+    }
+    iframe{
+        width: 600px;
+    }
+    .divLocation{
+        margin: 40px 0;
+        text-align: center;
+    }
+    .listContacts{
+        display: flex;
+        flex-direction: row;
+        align-items: normal;
+        justify-content: center;
+    }
+    .liLocation{
+        margin: 0 80px;
+    }
+    .listContact{
+        font-size: 17px;
+    }
+    .loremListContact{
+        font-size: 15px;
+    }
 }
-.divLocation{
-    margin: 40px 0;
-    text-align: center;
+@media screen and (min-width: 1112px){
+    .titleContact{
+        height: 229px;
+    }
+    .textContact{
+        font-size: 55px;
+    }
+    iframe{
+        width: 800px;
+    }
+    .liLocation{
+        margin: 0 100px;
+    }
+    .listContact{
+        font-size: 20px;
+    }
+    .loremListContact{
+        font-size: 18px;
+    }
 }
-.listContacts{
-    display: flex;
-    justify-content: center;
-}
-.liPhone{
-    position: relative;
-}
-.liPhone::before {
-    content: ''; 
-    position: absolute;
-    left: -55px;
-    top: 0%;
-    transform: translateY(25%);
-    width: 50px; 
-    height: 50px; 
-    background-image: url('../images/icons8-iphone-14-50.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-}  
-.liLocation{
-    margin: 0 100px;
-    position: relative;
-}
-.liLocation::before {
-    content: ''; 
-    position: absolute;
-    left: -55px;
-    top: 0%;
-    transform: translateY(25%);
-    width: 50px; 
-    height: 50px; 
-    background-image:  url('../images/icons8-location-50.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-.liEmail{
-    position: relative;
-}
-.liEmail::before {
-    content: ''; 
-    position: absolute;
-    left: -55px;
-    top: 0%;
-    transform: translateY(25%);
-    width: 50px; 
-    height: 50px; 
-    background-image: url('../images/icons8-message-50.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-.listContact{
-    color: #FFF;
-    font-family: 'Poppins';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px;
-}
-.loremListContact{
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    color: rgba(255, 255, 255, 0.70);
-    font-family: 'Poppins';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
+@media screen and (min-width: 1400px){
+    iframe{
+        width: 1000px;
+    }
 }

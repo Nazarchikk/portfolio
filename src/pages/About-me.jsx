@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <div className={css.about}>
         <div className={css.photo}>
-            <img src={img} alt="My_Photo_In_Car"/>
+            <img src={img} alt="My_Photo_In_Car" className={css.imageAbout_me}/>
         </div>
         <div>
             <h1 className={css.hi}>Hi Guys</h1>
