@@ -13,7 +13,7 @@ export default function Home() {
             <p className={css.lorem}>Do you need to create a website? When creating sites, I provide the same site as the layout. I also guarantee a perfect technical aspect so that everything works exactly as it should. If you are interested in my portfolio or experience - write to me!</p>
             <div className={css.divButtons}>
               <NavLink to="/my-project"><button className={css.Hbutton}>My-project</button></NavLink>
-              <NavLink to="/contact"><button className={css.Hbutton}>Kontakt</button></NavLink>
+              <NavLink to="/contact" className={css.linkButton}><button className={css.Hbutton}>Kontakt</button></NavLink>
             </div>
         </div>
     </div>
