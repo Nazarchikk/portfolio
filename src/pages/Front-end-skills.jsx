@@ -1,8 +1,21 @@
 import css from "./Front-end-skills.module.css";
+import { motion } from "framer-motion";
+
+const textAnimation = {
+    hiden:{
+        x: -100,
+        opacity: 0,
+    },
+    visible:custom =>({
+        x: 0,
+        opacity: 1,
+        transition:{delay: custom * 0.5}
+    })
+}
 
 export default function frontEndSkills() {
   return (
-    <div className={css.front_end_skills}>
+    <motion.div initial="hiden" whileInView="visible" viewport={{amount:0.2}} className={css.front_end_skills}>
         <div className={css.Ch1}>
             <h1 className={css.Th1}>Front-end skills</h1>
         </div>
@@ -27,7 +40,7 @@ export default function frontEndSkills() {
             <div className={css.skills2}>
                 <h2 className={css.subtitle}>Coding Skills</h2>
                 <ul>
-                    <li className={css.liLangueage}>
+                    <motion.li custom={3} variants={textAnimation} className={css.liLangueage}>
                         <div className={css.divLangueageUse}>
                             <h4 className={css.titleLanguage}>HTML</h4>
                             <p className={css.pProsent}>100%</p>
@@ -35,8 +48,8 @@ export default function frontEndSkills() {
                         <div className={css.lineBacround}>
                             <div className={css.lineProsent1}></div>
                         </div>
-                    </li>
-                    <li className={css.liLangueage}>
+                    </motion.li>
+                    <motion.li custom={3} variants={textAnimation} className={css.liLangueage}>
                         <div className={css.divLangueageUse}>
                             <h4 className={css.titleLanguage}>CSS</h4>
                             <p className={css.pProsent}>80%</p>
@@ -44,8 +57,8 @@ export default function frontEndSkills() {
                         <div className={css.lineBacround}>
                             <div className={css.lineProsent2}></div>
                         </div>
-                    </li>
-                    <li className={css.liLangueage}>
+                    </motion.li>
+                    <motion.li custom={3} variants={textAnimation} className={css.liLangueage}>
                         <div className={css.divLangueageUse}>
                             <h4 className={css.titleLanguage}>React</h4>
                             <p className={css.pProsent}>75%</p>
@@ -53,8 +66,8 @@ export default function frontEndSkills() {
                         <div className={css.lineBacround}>
                             <div className={css.lineProsent3}></div>
                         </div>
-                    </li>
-                    <li className={css.liLangueage}>
+                    </motion.li>
+                    <motion.li custom={3} variants={textAnimation} className={css.liLangueage}>
                         <div className={css.divLangueageUse}>
                             <h4 className={css.titleLanguage}>JavaScript</h4> 
                             <p className={css.pProsent}>50%</p>
@@ -62,8 +75,8 @@ export default function frontEndSkills() {
                         <div className={css.lineBacround}>
                             <div className={css.lineProsent4}></div>
                         </div>
-                    </li>
-                    <li className={css.liLangueage}>
+                    </motion.li>
+                    <motion.li custom={3} variants={textAnimation} className={css.liLangueage}>
                         <div className={css.divLangueageUse}>
                             <h4 className={css.titleLanguage}>Redux-Toolkit</h4>
                             <p className={css.pProsent}>40%</p>
@@ -71,8 +84,8 @@ export default function frontEndSkills() {
                         <div className={css.lineBacround}>
                             <div className={css.lineProsent5}></div>
                         </div>
-                    </li>
-                    <li className={css.liLangueage}>
+                    </motion.li>
+                    <motion.li custom={3} variants={textAnimation} className={css.liLangueage}>
                         <div className={css.divLangueageUse}>
                             <h4 className={css.titleLanguage}>Sass</h4>
                             <p className={css.pProsent}>30%</p>
@@ -80,10 +93,10 @@ export default function frontEndSkills() {
                         <div className={css.lineBacround}>
                             <div className={css.lineProsent6}></div>
                         </div>
-                    </li>
+                    </motion.li>
                 </ul>
             </div>
         </div>
-    </div>
+    </motion.div>
   )
 }

@@ -290,6 +290,17 @@
     }
     .liLangueage{
         margin-top: 32px;
+        transform-origin: left center;
+        animation: loading 2s ; 
+    }
+        @keyframes loading {
+        0% {
+            transform: scaleX(0);
+        }
+
+        100% {
+            transform: scaleX(1);
+        }
     }
     .titleLanguage{
         font-size: 18px;
