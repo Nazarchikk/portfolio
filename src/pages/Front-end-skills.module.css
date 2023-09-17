@@ -121,10 +121,7 @@
         transform-origin: right center;
         animation: onLoading 3s ; 
     }
-    .liLangueageShow{
-        transform-origin: left center;
-        animation: loading 3s ; 
-    }
+
     @keyframes onLoading {
         0% {
             transform: scaleX(1);
@@ -137,7 +134,11 @@
         }
     }
     .liLangueage{
-        opacity: 0;
+        opacity: 0.1;
+    }
+    .liLangueageShow{
+        transform-origin: left center;
+        animation: loading 3s ; 
     }
     @keyframes loading {
         0% {
