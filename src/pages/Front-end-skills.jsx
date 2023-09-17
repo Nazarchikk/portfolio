@@ -53,118 +53,94 @@ export default function FrontEndSkills() {
           <div className={css.skills2}>
             <h2 className={css.subtitle}>Coding Skills</h2>
             <ul>
-              <li
-                className={
-                  screenWidth < 1000
-                    ? scroll < 500
-                      ? css.liLangueage
-                      : css.liLangueageShow
-                    : scroll < 100
-                    ? css.liLangueage
-                    : css.liLangueageShow
-                }
-              >
+              <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>HTML</h4>
                   <p className={css.pProsent}>100%</p>
                 </div>
                 <div className={css.lineBacround}>
-                  <div className={css.lineProsent1}></div>
+                  <div
+                    className={
+                      screenWidth < 1112
+                        ? scroll > 650 && css.lineProsent1
+                        : css.lineProsent1
+                    }
+                  ></div>
                 </div>
               </li>
-              <li
-                className={
-                  screenWidth < 1000
-                    ? scroll < 500
-                      ? css.liLangueage
-                      : css.liLangueageShow
-                    : scroll < 100
-                    ? css.liLangueage
-                    : css.liLangueageShow
-                }
-              >
+              <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>CSS</h4>
                   <p className={css.pProsent}>80%</p>
                 </div>
                 <div className={css.lineBacround}>
-                  <div className={css.lineProsent2}></div>
+                  <div
+                    className={
+                      screenWidth < 1112
+                        ? scroll > 650 && css.lineProsent2
+                        : css.lineProsent2
+                    }
+                  ></div>
                 </div>
               </li>
-              <li
-                className={
-                  screenWidth < 1000
-                    ? scroll < 500
-                      ? css.liLangueage
-                      : css.liLangueageShow
-                    : scroll < 100
-                    ? css.liLangueage
-                    : css.liLangueageShow
-                }
-              >
+              <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>React</h4>
                   <p className={css.pProsent}>75%</p>
                 </div>
                 <div className={css.lineBacround}>
-                  <div className={css.lineProsent3}></div>
+                  <div
+                    className={
+                      screenWidth < 1112
+                        ? scroll > 650 && css.lineProsent3
+                        : css.lineProsent3
+                    }
+                  ></div>
                 </div>
               </li>
-              <li
-                className={
-                  screenWidth < 1000
-                    ? scroll < 500
-                      ? css.liLangueage
-                      : css.liLangueageShow
-                    : scroll < 100
-                    ? css.liLangueage
-                    : css.liLangueageShow
-                }
-              >
+              <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>JavaScript</h4>
                   <p className={css.pProsent}>50%</p>
                 </div>
                 <div className={css.lineBacround}>
-                  <div className={css.lineProsent4}></div>
+                  <div
+                    className={
+                      screenWidth < 1112
+                        ? scroll > 650 && css.lineProsent4
+                        : css.lineProsent4
+                    }
+                  ></div>
                 </div>
               </li>
-              <li
-                className={
-                  screenWidth < 1000
-                    ? scroll < 500
-                      ? css.liLangueage
-                      : css.liLangueageShow
-                    : scroll < 100
-                    ? css.liLangueage
-                    : css.liLangueageShow
-                }
-              >
+              <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>Redux-Toolkit</h4>
                   <p className={css.pProsent}>40%</p>
                 </div>
                 <div className={css.lineBacround}>
-                  <div className={css.lineProsent5}></div>
+                  <div
+                    className={
+                      screenWidth < 1112
+                        ? scroll > 650 && css.lineProsent5
+                        : css.lineProsent5
+                    }
+                  ></div>
                 </div>
               </li>
-              <li
-                className={
-                  screenWidth < 1000
-                    ? scroll < 500
-                      ? css.liLangueage
-                      : css.liLangueageShow
-                    : scroll < 100
-                    ? css.liLangueage
-                    : css.liLangueageShow
-                }
-              >
+              <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>Sass</h4>
                   <p className={css.pProsent}>30%</p>
                 </div>
                 <div className={css.lineBacround}>
-                  <div className={css.lineProsent6}></div>
+                  <div
+                    className={
+                      screenWidth < 1112
+                        ? scroll > 650 && css.lineProsent6
+                        : css.lineProsent6
+                    }
+                  ></div>
                 </div>
               </li>
             </ul>
