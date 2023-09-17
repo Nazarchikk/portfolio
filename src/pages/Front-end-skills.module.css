@@ -118,6 +118,35 @@
     }
     .liLangueage{
         margin-top: 28px;
+        transform-origin: right center;
+        animation: onLoading 3s ; 
+    }
+    .liLangueageShow{
+        transform-origin: left center;
+        animation: loading 3s ; 
+    }
+    @keyframes onLoading {
+        0% {
+            transform: scaleX(1);
+            opacity: 0.5;
+        }
+
+        100% {
+            transform: scaleX(0);
+            opacity: 0;
+        }
+    }
+    .liLangueage{
+        opacity: 0;
+    }
+    @keyframes loading {
+        0% {
+            transform: scaleX(0);
+        }
+
+        100% {
+            transform: scaleX(1);
+        }
     }
     .divLangueageUse{
         min-width: 260px;
@@ -215,9 +244,6 @@
     .loremWhatIDo{
         font-size: 13px;
     }
-    .liLangueage{
-        margin-top: 28px;
-    }
     .skills2{
         margin: 0;
     }
@@ -290,17 +316,9 @@
     }
     .liLangueage{
         margin-top: 32px;
-        transform-origin: left center;
-        animation: loading 2s ; 
     }
-        @keyframes loading {
-        0% {
-            transform: scaleX(0);
-        }
-
-        100% {
-            transform: scaleX(1);
-        }
+    .liLangueageShow{
+        margin-top: 32px;
     }
     .titleLanguage{
         font-size: 18px;
@@ -314,6 +332,9 @@
 }
 @media screen and (min-width: 1235px){
     .liLangueage{
+        margin-top: 15px;
+    }
+    .liLangueageShow{
         margin-top: 15px;
     }
 }
