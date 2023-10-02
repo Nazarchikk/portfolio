@@ -91,8 +91,7 @@ export default function App() {
             </div>
             <div>
               <p className={css.text2023}>
-                © 2023 | All Rights Reserved | Developed with ❤️ by GoITeens
-                Student
+                © 2023 | Nazarchikk
               </p>
             </div>
           </footer>
