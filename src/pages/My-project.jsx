@@ -10,7 +10,7 @@ export default function MyProject() {
         <div>
             <div className={css.conClients}>
                 <h2 className={css.titleClients}>Clients</h2>
-                <p className={css.loremClients}>I don't have clients yet</p>
+                <p className={css.loremClients}>You will be my first client</p>
             </div>
             <div className={css.conGallery}>
                 <h2 className={css.titleGallery}>Gallery projects</h2>

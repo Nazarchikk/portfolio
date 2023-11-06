@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import CountUp from 'react-countup';
 import css from "./Front-end-skills.module.css";
 
 export default function FrontEndSkills() {
@@ -56,7 +57,8 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>HTML</h4>
-                  <p className={css.pProsent}>100%</p>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 650 && <CountUp start={0} end={100} delay={0.2} duration={5.2}></CountUp>
+                        : <CountUp start={0} end={100} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
@@ -71,7 +73,8 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>CSS</h4>
-                  <p className={css.pProsent}>80%</p>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 650 && <CountUp start={0} end={85} delay={0.2} duration={5.2}></CountUp>
+                        : <CountUp start={0} end={85} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
@@ -86,7 +89,8 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>React</h4>
-                  <p className={css.pProsent}>75%</p>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 650 && <CountUp start={0} end={80} delay={0.2} duration={5.2}></CountUp>
+                        : <CountUp start={0} end={80} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
@@ -101,7 +105,8 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>JavaScript</h4>
-                  <p className={css.pProsent}>50%</p>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 650 && <CountUp start={0} end={75} delay={0.2} duration={5.2}></CountUp>
+                        : <CountUp start={0} end={75} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
@@ -116,7 +121,8 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>Redux-Toolkit</h4>
-                  <p className={css.pProsent}>40%</p>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 650 && <CountUp start={0} end={75} delay={0.2} duration={5.2}></CountUp>
+                        : <CountUp start={0} end={75} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
@@ -131,7 +137,8 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>Sass</h4>
-                  <p className={css.pProsent}>30%</p>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 650 && <CountUp start={0} end={50} delay={0.2} duration={5.2}></CountUp>
+                        : <CountUp start={0} end={50} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div

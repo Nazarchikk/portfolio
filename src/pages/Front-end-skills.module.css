@@ -153,7 +153,7 @@
         padding-left: 3px;
     }
     .lineProsent1{
-        width: 100%;
+        width: 98.5%;
         height: 9px;
         border-radius: 8px;
         background: #007CED;
@@ -162,7 +162,7 @@
         animation: loading 5s ; 
     }
     .lineProsent2{
-        width: 80%;
+        width: 83.5%;
         height: 9px;
         border-radius: 8px;
         background: #007CED;
@@ -171,7 +171,7 @@
         animation: loading 5s ; 
     }
     .lineProsent3{
-        width: 75%;
+        width: 78.5%;
         height: 9px;
         border-radius: 8px;
         background: #007CED;
@@ -180,7 +180,7 @@
         animation: loading 5s ; 
     }
     .lineProsent4{
-        width: 50%;
+        width: 73.5%;
         height: 9px;
         border-radius: 8px;
         background: #007CED;
@@ -189,7 +189,7 @@
         animation: loading 5s ; 
     }
     .lineProsent5{
-        width: 40%;
+        width: 73.5%;
         height: 9px;
         border-radius: 8px;
         background: #007CED;
@@ -198,7 +198,7 @@
         animation: loading 5s ; 
     }
     .lineProsent6{
-        width: 30%;
+        width: 48.5%;
         height: 9px;
         border-radius: 8px;
         background: #007CED;
@@ -269,22 +269,22 @@
         width: 620px;
     }
     .lineProsent1{
-        width: 616px;
+        width: 99.5%;
     }
     .lineProsent2{
-        width: 493px;
+        width: 85%;
     }
     .lineProsent3{
-        width: 462px;
+        width: 80%;
 
     }.lineProsent4{
-        width: 308px;
+        width: 75%;
 
     }.lineProsent5{
-        width: 248px;
+        width: 75%;
 
     }.lineProsent6{
-        width: 185px;
+        width: 50%;
     }
 }
 @media screen and (min-width: 1112px){
