@@ -18,7 +18,7 @@ export default function contact() {
                 <p className={css.loremListContact}>This is my number that you can call from 8 a.m. to 10 p.m</p> 
               </li>
               <li className={css.liLocation}>
-                <h3 className={css.listContact}>Ukraine.Kropivnizkiy</h3>
+                <h3 className={css.listContact}>Ukraine.Kropyvnytskyi</h3>
                 <p className={css.loremListContact}>This is the city in which I currently live</p> 
               </li>
               <li className={css.liEmail}>
