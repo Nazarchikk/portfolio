@@ -10,7 +10,7 @@
     }
     .titleText{
         color: #FFF;
-        font-family: 'Poppins';
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 35px;
         font-style: normal;
         font-weight: 700;
@@ -22,7 +22,7 @@
     }
     .titleClients{
         color: #FFF;
-        font-family: 'Poppins';
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 23px;
         font-style: normal;
         font-weight: 700;
@@ -31,7 +31,7 @@
     }
     .loremClients{
         color: rgba(255, 255, 255, 0.50);
-        font-family: 'Poppins';
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
@@ -40,7 +40,7 @@
     }
     .titleGallery{
         color: #FFF;
-        font-family: 'Poppins';
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 23px;
         font-style: normal;
         font-weight: 700;
@@ -80,7 +80,7 @@
         border: 3px solid #D5D5D5;
         background: #333;
         color: #FFF;
-        font-family: 'Poppins';
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
@@ -160,7 +160,7 @@
 }
 .titleText{
     color: #FFF;
-    font-family: 'Poppins';
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 55px;
     font-style: normal;
     font-weight: 700;
@@ -172,7 +172,7 @@
 }
 .titleClients{
     color: #FFF;
-    font-family: 'Poppins';
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -181,7 +181,7 @@
 }
 .loremClients{
     color: rgba(255, 255, 255, 0.50);
-    font-family: 'Poppins';
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -190,7 +190,7 @@
 }
 .titleGallery{
     color: #FFF;
-    font-family: 'Poppins';
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -229,7 +229,7 @@
     border: 3px solid #D5D5D5;
     background: #333;
     color: #FFF;
-    font-family: 'Poppins';
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;

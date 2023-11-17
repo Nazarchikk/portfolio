@@ -18,11 +18,16 @@
         width: 275px;
         height: 270px;
         border-radius: 528px;
+        border-radius: 528px;
+        background-image: url('../images/2023-11-17\ 19.03.18.jpg');
+        background-size: 100%;
+        background-position-y: top;
+        background-repeat: no-repeat;
     }
     .hi{
         color: #FFF;
-        font-family: 'Poppins';
-        font-size: 70px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 72px;
         font-style: normal;
         font-weight: 700;
         line-height: 35px;
@@ -30,8 +35,8 @@
     }
     .about_me{
         color: #FFF;
-        font-family: 'Poppins';
-        font-size: 18px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: 35px;

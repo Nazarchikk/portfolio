@@ -15,8 +15,8 @@
     }
     .Th1{
         color: #FFF;
-        font-family: 'Poppins';
-        font-size: 35px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 37px;
         font-style: normal;
         font-weight: 700;
         line-height: 35px;
@@ -32,7 +32,7 @@
     }
     .subtitle{
         color: #FFF;
-        font-family: 'Poppins';
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 23px;
         font-style: normal;
         font-weight: 700;
@@ -93,7 +93,7 @@
       }
     .titleWhatIDo{
         color: #FFF;
-        font-family: 'Poppins';
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 13px;
         font-style: normal;
         font-weight: 700;
@@ -102,7 +102,7 @@
     }
     .loremWhatIDo{
         color: rgba(255, 255, 255, 0.70);
-        font-family: 'Poppins';
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -127,7 +127,7 @@
     }
     .titleLanguage{
         color: #FFF;
-        font-family: 'Poppins';
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 13px;
         font-style: normal;
         font-weight: 700;
@@ -137,7 +137,7 @@
     .pProsent{
         margin-top: 2px;
         color: rgba(255, 255, 255, 0.70);
-        font-family: 'Poppins';
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 9px;
         font-style: normal;
         font-weight: 400;

@@ -1,12 +1,12 @@
 import React from 'react'
-import img from "../images/IMAGE 2023-08-17 15:09:35.jpg"
 import css from "./About-me.module.css"
 
 export default function AboutMe() {
   return (
     <div className={css.about}>
         <div className={css.photo}>
-            <img src={img} alt="My_Photo_In_Car" className={css.imageAbout_me}/>
+          <div className={css.imageAbout_me}>
+          </div>
         </div>
         <div>
             <h1 className={css.hi}>Hi Guys</h1>

@@ -21,8 +21,8 @@
     }
     .frd{
         color: rgba(255, 255, 255, 0.50);
-        font-family: 'Poppins';
-        font-size: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 30px;
         font-style: normal;
         font-weight: 400;
         line-height: 35px;
@@ -30,8 +30,8 @@
     }
     .h1Home{
         color: #FFF;
-        font-family: 'Poppins';
-        font-size: 70px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 72px;
         font-style: normal;
         font-weight: 700;
         line-height: 35px;
@@ -39,8 +39,8 @@
     }
     .lorem{
         color: #FFF;
-        font-family: 'Poppins';
-        font-size: 18px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: 35px;
@@ -59,8 +59,8 @@
         border: 3px solid #D5D5D5;
         background: #333;
         color: #FFF;
-        font-family: 'Poppins';
-        font-size: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: 35px;
