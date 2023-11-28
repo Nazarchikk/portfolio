@@ -1,168 +1,166 @@
 @media screen and (min-width: 320px) {
-    body {
-        background-color: #222;
-        height: 100%;
-        width: 100%;
-        margin: 0;
-    }
-    .divLoader {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
-    .wrapper {
-        width: 100%;
-    }
-    header {
-        height: 60px;
-        padding-top: 10px;
-    }
+  body {
+    background-color: #222;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  .divLoader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .wrapper {
+    width: 100%;
+  }
+  header {
+    height: 130px;
+  }
+  main {
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .conLogo {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
 
-    .conLogo {
-        width: 70px;
-        height: 70px;
-        border-radius: 100px;
-        background-color: royalblue;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .logo {
+    padding: 0;
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    background-image: url("../images/logo_page.png");
+    background-size: cover;
+  }
 
-    .logo {
-        font-family: 'Caveat';
-        font-size: 40px;
-        text-decoration: none;
-        color: white;
-        margin-left: -10px;
-    }
+  .navbar {
+    min-width: 200px;
+    max-width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-    .navbar {
-        min-width: 200px;
-        max-width: 550px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  .NavLinks {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Poppins";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    margin-right: 10px;
+  }
+  .NavLinks:nth-child(3) {
+    margin: 0;
+  }  
+  .NavLinks:nth-child(4) {
+    margin: 0 0 0 10px;
+  }
+  .NavLinks:last-child{
+    margin: 0 0 0 10px;
+  }
+  .NavLinks:focus {
+    color: white;
+    font-weight: 700;
+  }
+  main {
+    width: 100%;
+  }
 
-    .NavLink {
-        text-decoration: none;
-        color: rgba(255, 255, 255, 0.50);
-        font-family: 'Poppins';
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 35px;
-        margin-right: 10px;
-    }
+  footer {
+    width: 100%;
+    text-align: center;
+  }
 
-    .NavLink:focus {
-        color: white;
-        font-weight: 700;
-    }
+  .footerNLink {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: 1s ease-in-out;
+  }
 
-    main {
-        width: 100%;
-    }
+  .footerNLink:last-child {
+    margin: 0;
+  }
 
-    footer {
-        border-top: solid 1px #333;
-        width: 100%;
-        text-align: center;
-    }
+  .footerNLink:hover {
+    color: white;
+    font-weight: 700;
+  }
 
-    .footerNLink {
-        color: rgba(255, 255, 255, 0.50);
-        font-family: 'Poppins';
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 35px;
-        margin-right: 15px;
-        text-decoration: none;
-        transition: 1s ease-in-out;
-    }
-
-    .footerNLink:last-child {
-        margin: 0;
-    }
-
-    .footerNLink:hover {
-        color: white;
-        font-weight: 700;
-    }
-
-    .text2023 {
-        color: rgba(255, 255, 255, 0.80);
-        font-family: 'Poppins';
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 35px;
-    }
+  .text2023 {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  header {
+    height: 80px;
+  }
+  .conLogo {
+    margin-left: 40px;
+  }
 
-    .conLogo {
-        margin-left: 40px;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: unset;
-        justify-content: space-between;
-    }
-
-    .NavLink:focus {
-        color: white;
-        font-weight: 700;
-    }
+  nav {
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-between;
+  }
+  .navbar {
+    padding: 22px;
+    max-width: none;
+  }
+  .NavLink:focus {
+    color: white;
+    font-weight: 700;
+  }
 }
 
 @media screen and (min-width: 1112px) {
-    .conLogo {
-        transition: opacity 1s ease-in-out;
-    }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #333;
+    width: 100%;
+  }
 
-    .conLogo:hover {
-        opacity: 0;
-    }
+  .conection {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
 
-    .navbar {
-        padding: 22px;
-        max-width: none;
-    }
+  .footerNLink:last-child {
+    margin: 0;
+  }
 
-    footer {
-        display: flex;
-        justify-content: space-between;
-        border-top: solid 1px #333;
-        width: 100%;
-    }
+  .text2023 {
+    transition: opacity 1s ease-in-out;
+    margin-right: 20px;
+  }
 
-    .conection {
-        display: flex;
-        align-items: center;
-        margin-left: 20px;
-    }
-
-    .footerNLink:last-child {
-        margin: 0;
-    }
-
-    .text2023 {
-        transition: opacity 1s ease-in-out;
-        margin-right: 20px;
-    }
-
-    .text2023:hover {
-        opacity: 0;
-    }
+  .text2023:hover {
+    opacity: 0;
+  }
 }

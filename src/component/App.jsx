@@ -26,23 +26,22 @@ export default function App() {
             <nav>
               <div className={css.conLogo}>
                 <NavLink to="/" className={css.logo}>
-                  N
                 </NavLink>
               </div>
               <div className={css.navbar}>
-                <NavLink to="/" className={css.NavLink}>
+                <NavLink to="/" className={css.NavLinks}>
                   Home
                 </NavLink>
-                <NavLink to="/about-me" className={css.NavLink}>
+                <NavLink to="/about-me" className={css.NavLinks}>
                   About me
                 </NavLink>
-                <NavLink to="/front-end-skills" className={css.NavLink}>
-                  Front-end skills
+                <NavLink to="/front-end-skills" className={css.NavLinks}>
+                  Front-end_skills
                 </NavLink>
-                <NavLink to="/my-project" className={css.NavLink}>
+                <NavLink to="/my-project" className={css.NavLinks}>
                   My-project
                 </NavLink>
-                <NavLink to="/contact" className={css.NavLink}>
+                <NavLink to="/contact" className={css.NavLinks}>
                   Contact
                 </NavLink>
               </div>

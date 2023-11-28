@@ -116,12 +116,6 @@
         margin: 40px 0;
         text-align: center;
     }
-    .listContacts{
-        display: flex;
-        flex-direction: row;
-        align-items: normal;
-        justify-content: center;
-    }
     .liLocation{
         margin: 0 80px;
     }
@@ -147,6 +141,12 @@
     }
     .listContact{
         font-size: 20px;
+    }
+    .listContacts{
+        display: flex;
+        flex-direction: row;
+        align-items: normal;
+        justify-content: center;
     }
     .loremListContact{
         font-size: 18px;

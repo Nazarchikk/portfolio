@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import CountUp from 'react-countup';
+import SVGS from '../images/lengue/symbol-defs.svg'
 import css from "./Front-end-skills.module.css";
 
 export default function FrontEndSkills() {
@@ -20,34 +21,52 @@ export default function FrontEndSkills() {
         </div>
         <div className={css.Cskills}>
           <div className={css.skills1}>
-            <h2 className={css.subtitle}>What I do ?</h2>
-            <ul>
-              <li className={css.liSkill1}>
-                <h4 className={css.titleWhatIDo}>GitHub</h4>
-                <p className={css.loremWhatIDo}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                  vitae, quidem iste nisi iusto vero quos expedita natus eos sit
-                  illum provident laborum ea architecto dolores dignissimos
-                  doloremque ipsa autem?
-                </p>
+            <h2 className={css.subtitle}>I Know</h2>
+            <ul className={css.loremSvgs}>
+              <li>
+                <svg className={css.svgTeg}>
+                  <use href={`${SVGS}#icon-html5`}></use>
+                </svg>
               </li>
-              <li className={css.liSkill2}>
-                <h4 className={css.titleWhatIDo}>HTML,CSS,JavaScript</h4>
-                <p className={css.loremWhatIDo}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                  vitae, quidem iste nisi iusto vero quos expedita natus eos sit
-                  illum provident laborum ea architecto dolores dignissimos
-                  doloremque ipsa autem?
-                </p>
+              <li>
+                <svg className={css.svgTeg}>
+                  <use href={`${SVGS}#icon-css3`}></use>
+                </svg>
               </li>
-              <li className={css.liSkill3}>
-                <h4 className={css.titleWhatIDo}>Sass,React,Redux-Toolkit</h4>
-                <p className={css.loremWhatIDo}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                  vitae, quidem iste nisi iusto vero quos expedita natus eos sit
-                  illum provident laborum ea architecto dolores dignissimos
-                  doloremque ipsa autem?
-                </p>
+              <li>
+                <svg className={css.svgTeg}>
+                  <use href={`${SVGS}#icon-javascript`}></use>
+                </svg>
+              </li>
+              <li>
+                <svg className={css.svgTeg}>
+                  <use href={`${SVGS}#icon-react`}></use>
+                </svg>
+              </li>
+              <li>
+                <svg className={css.svgTeg}>
+                  <use href={`${SVGS}#icon-redux`}></use>
+                </svg>
+              </li>
+              <li>
+                <svg className={css.svgTeg}>
+                  <use href={`${SVGS}#icon-sass`}></use>
+                </svg>
+              </li>
+              <li>
+                <svg className={css.svgTeg}>
+                  <use href={`${SVGS}#icon-bootstrap`}></use>
+                </svg>
+              </li>
+              <li>
+                <svg className={css.svgTeg}>
+                  <use href={`${SVGS}#icon-github`}></use>
+                </svg>
+              </li>
+              <li>
+                <svg className={css.svgTeg}>
+                  <use href={`${SVGS}#icon-git`}></use>
+                </svg>
               </li>
             </ul>
           </div>
@@ -57,14 +76,14 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>HTML</h4>
-                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 650 && <CountUp start={0} end={100} delay={0.2} duration={5.2}></CountUp>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={100} delay={0.2} duration={5.2}></CountUp>
                         : <CountUp start={0} end={100} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
                     className={
                       screenWidth < 1112
-                        ? scroll > 650 && css.lineProsent1
+                        ? scroll > 200 && css.lineProsent1
                         : css.lineProsent1
                     }
                   ></div>
@@ -73,14 +92,14 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>CSS</h4>
-                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 650 && <CountUp start={0} end={85} delay={0.2} duration={5.2}></CountUp>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={85} delay={0.2} duration={5.2}></CountUp>
                         : <CountUp start={0} end={85} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
                     className={
                       screenWidth < 1112
-                        ? scroll > 650 && css.lineProsent2
+                        ? scroll > 200 && css.lineProsent2
                         : css.lineProsent2
                     }
                   ></div>
@@ -89,14 +108,14 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>React</h4>
-                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 650 && <CountUp start={0} end={80} delay={0.2} duration={5.2}></CountUp>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={80} delay={0.2} duration={5.2}></CountUp>
                         : <CountUp start={0} end={80} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
                     className={
                       screenWidth < 1112
-                        ? scroll > 650 && css.lineProsent3
+                        ? scroll > 200 && css.lineProsent3
                         : css.lineProsent3
                     }
                   ></div>
@@ -105,14 +124,14 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>JavaScript</h4>
-                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 650 && <CountUp start={0} end={75} delay={0.2} duration={5.2}></CountUp>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={75} delay={0.2} duration={5.2}></CountUp>
                         : <CountUp start={0} end={75} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
                     className={
                       screenWidth < 1112
-                        ? scroll > 650 && css.lineProsent4
+                        ? scroll > 200 && css.lineProsent4
                         : css.lineProsent4
                     }
                   ></div>
@@ -121,14 +140,14 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>Redux-Toolkit</h4>
-                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 650 && <CountUp start={0} end={75} delay={0.2} duration={5.2}></CountUp>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={75} delay={0.2} duration={5.2}></CountUp>
                         : <CountUp start={0} end={75} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
                     className={
                       screenWidth < 1112
-                        ? scroll > 650 && css.lineProsent5
+                        ? scroll > 200 && css.lineProsent5
                         : css.lineProsent5
                     }
                   ></div>
@@ -137,14 +156,14 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>Sass</h4>
-                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 650 && <CountUp start={0} end={50} delay={0.2} duration={5.2}></CountUp>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={50} delay={0.2} duration={5.2}></CountUp>
                         : <CountUp start={0} end={50} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
                     className={
                       screenWidth < 1112
-                        ? scroll > 650 && css.lineProsent6
+                        ? scroll > 200 && css.lineProsent6
                         : css.lineProsent6
                     }
                   ></div>
