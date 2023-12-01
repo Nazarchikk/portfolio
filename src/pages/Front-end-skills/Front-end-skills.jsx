@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import CountUp from 'react-countup';
-import SVGS from '../images/lengue/symbol-defs.svg'
+import SVGS from '../../images/lengue/symbol-defs.svg'
 import css from "./Front-end-skills.module.css";
 
 export default function FrontEndSkills() {

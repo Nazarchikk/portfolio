@@ -1,11 +1,11 @@
 import { Route, Routes, NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
-import Home from "../pages/Home.jsx";
-import AboutMe from "../pages/About-me.jsx";
-import FronteEndSkills from "../pages/Front-end-skills.jsx";
-import MyProject from "../pages/My-project.jsx";
-import Contact from "../pages/Contact.jsx";
-import Loader from "./Loader.jsx";
+import Home from "../../pages/Home/Home.jsx";
+import AboutMe from "../../pages/About-me/About-me.jsx";
+import FronteEndSkills from "../../pages/Front-end-skills/Front-end-skills.jsx";
+import MyProject from "../../pages/My-project/My-project.jsx";
+import Contact from "../../pages/Contact/Contact.jsx";
+import Loader from "../Loader/Loader.jsx";
 import css from "./App.module.css";
 export default function App() {
   const [status, setStatus] = useState("pending");

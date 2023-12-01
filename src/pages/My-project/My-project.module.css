@@ -57,19 +57,19 @@
     .site{
         width: 222px;
         height: 125px;
-        background: url("../images/WebStudio.png"), lightgray -44.962px -5px / 118.931% 101.852% no-repeat;
+        background: url("../../images/WebStudio.png"), lightgray -44.962px -5px / 118.931% 101.852% no-repeat;
         background-size: contain;
         display: flex;
         justify-content: center;
         align-items: flex-end;
     }
     .site:nth-child(2){
-        background: url("../images/Restoran.png"), lightgray -44.962px -5px / 118.931% 101.852% no-repeat;
+        background: url("../../images/Restoran.png"), lightgray -44.962px -5px / 118.931% 101.852% no-repeat;
         background-size: contain;
         margin: 20px 0;
     }
     .site:nth-child(3){
-        background: url("../images/EventBuster.png"), lightgray -44.962px -5px / 118.931% 101.852% no-repeat;
+        background: url("../../images/EventBuster.png"), lightgray -44.962px -5px / 118.931% 101.852% no-repeat;
         background-size: contain;
     }
     .BVSite{
