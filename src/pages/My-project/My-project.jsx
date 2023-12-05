@@ -16,7 +16,7 @@ export default function MyProject() {
                 <h2 className={css.titleGallery}>Gallery projects</h2>
                 <ul className={css.listProjects}>
                     <li className={css.site}>
-                        <NavLink to="https://656ee2ba4fe90410481e9152--endearing-toffee-1c8df9.netlify.app/" target="_blank"><button className={css.BVSite}>Visit the site</button></NavLink>
+                        <NavLink to="https://endearing-toffee-1c8df9.netlify.app/" target="_blank"><button className={css.BVSite}>Visit the site</button></NavLink>
                     </li>
                     <li className={css.site}>
                         <NavLink to="https://nazarchikk.github.io/restaurant/" target="_blank"><button className={css.BVSite}>Visit the site</button></NavLink>
