@@ -16,13 +16,13 @@ export default function MyProject() {
                 <h2 className={css.titleGallery}>Gallery projects</h2>
                 <ul className={css.listProjects}>
                     <li className={css.site}>
-                        <NavLink to="https://64f0b5182e5ef27844f186e5--dulcet-mooncake-7f1147.netlify.app/" ><button className={css.BVSite}>Visit the site</button></NavLink>
+                        <NavLink to="https://64f0b5182e5ef27844f186e5--dulcet-mooncake-7f1147.netlify.app/" target="_blank"><button className={css.BVSite}>Visit the site</button></NavLink>
                     </li>
                     <li className={css.site}>
-                        <NavLink to="https://nazarchikk.github.io/restaurant"><button className={css.BVSite}>Visit the site</button></NavLink>
+                        <NavLink to="https://nazarchikk.github.io/restaurant/" target="_blank"><button className={css.BVSite}>Visit the site</button></NavLink>
                     </li>
                     <li className={css.site}>
-                        <NavLink to="https://andriihrytsei.github.io/event-booster/"><button className={css.BVSite}>Visit the site</button></NavLink>
+                        <NavLink to="https://andriihrytsei.github.io/event-booster/" target="_blank"><button className={css.BVSite}>Visit the site</button></NavLink>
                     </li>
                 </ul>
             </div>
