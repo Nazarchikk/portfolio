@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { a } from "react-router-dom";
 import css from "./My-project.module.css"
 
 export default function MyProject() {
@@ -16,13 +16,13 @@ export default function MyProject() {
                 <h2 className={css.titleGallery}>Gallery projects</h2>
                 <ul className={css.listProjects}>
                     <li className={css.site}>
-                        <NavLink to="https://endearing-toffee-1c8df9.netlify.app/"><button className={css.BVSite}>Visit the site</button></NavLink>
+                        <a href="https://endearing-toffee-1c8df9.netlify.app/"><button className={css.BVSite}>Visit the site</button></a>
                     </li>
                     <li className={css.site}>
-                        <NavLink to="https://nazarchikk.github.io/restaurant/" ><button className={css.BVSite}>Visit the site</button></NavLink>
+                        <a href="https://nazarchikk.github.io/restaurant/" ><button className={css.BVSite}>Visit the site</button></a>
                     </li>
                     <li className={css.site}>
-                        <NavLink to="https://andriihrytsei.github.io/event-booster/"><button className={css.BVSite}>Visit the site</button></NavLink>
+                        <a href="https://andriihrytsei.github.io/event-booster/"><button className={css.BVSite}>Visit the site</button></a>
                     </li>
                 </ul>
             </div>
