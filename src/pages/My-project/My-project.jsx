@@ -1,4 +1,3 @@
-import { a } from "react-router-dom";
 import css from "./My-project.module.css"
 
 export default function MyProject() {
