@@ -76,8 +76,8 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>HTML</h4>
-                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={100} delay={0.2} duration={5.2}></CountUp>
-                        : <CountUp start={0} end={100} delay={0.2} duration={5.2}></CountUp>}%</p>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={70} delay={0.2} duration={5.2}></CountUp>
+                        : <CountUp start={0} end={70} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
@@ -92,8 +92,8 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>CSS</h4>
-                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={85} delay={0.2} duration={5.2}></CountUp>
-                        : <CountUp start={0} end={85} delay={0.2} duration={5.2}></CountUp>}%</p>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={65} delay={0.2} duration={5.2}></CountUp>
+                        : <CountUp start={0} end={65} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
@@ -108,8 +108,8 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>React</h4>
-                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={80} delay={0.2} duration={5.2}></CountUp>
-                        : <CountUp start={0} end={80} delay={0.2} duration={5.2}></CountUp>}%</p>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={60} delay={0.2} duration={5.2}></CountUp>
+                        : <CountUp start={0} end={60} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
@@ -124,8 +124,8 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>JavaScript</h4>
-                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={75} delay={0.2} duration={5.2}></CountUp>
-                        : <CountUp start={0} end={75} delay={0.2} duration={5.2}></CountUp>}%</p>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={55} delay={0.2} duration={5.2}></CountUp>
+                        : <CountUp start={0} end={55} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
@@ -140,8 +140,8 @@ export default function FrontEndSkills() {
               <li className={css.liLangueage}>
                 <div className={css.divLangueageUse}>
                   <h4 className={css.titleLanguage}>Redux-Toolkit</h4>
-                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={75} delay={0.2} duration={5.2}></CountUp>
-                        : <CountUp start={0} end={75} delay={0.2} duration={5.2}></CountUp>}%</p>
+                  <p className={css.pProsent}>{screenWidth < 1112 ? scroll > 200 && <CountUp start={0} end={55} delay={0.2} duration={5.2}></CountUp>
+                        : <CountUp start={0} end={55} delay={0.2} duration={5.2}></CountUp>}%</p>
                 </div>
                 <div className={css.lineBacround}>
                   <div
